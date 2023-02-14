@@ -15,16 +15,157 @@ body {
 	
 }
 
+nav{
+	color: brown;
+	margin-bottom: 1%;
+	padding: 1%;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	border-bottom-style: dotted;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Francois One', sans-serif;
+	border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a{
+	display: block;
+	color: #fff;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+#intro {
+	text-align: center;
+}
+
+#Who {
+	text-align: center;
+}
+
+h1 {
+	margin-top: 3%;
+}
+
+h2 {
+	margin-top: 3%;
+}
+
+h3 {
+	margin-top: 6%;
+	text-align: center;
+	font-size: 2em;
+	color: crimson;
+	font-style: oblique;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+figure {
+	border-top-style: solid;
+	border-radius: 3em;
+	border-color: crimson;
+}
+
+figcaption {
+	color: white;
+	font-size: 2em;
+}
+
+h4 {
+	
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
 .menus {
     background-color: #0388fc;
     grid-area: menus;
     display: block;
     list-style-type: none;
     text-decoration: none;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: start;
+	text-align: center;
   }
 
   .box1 {
     color: #fff;
+}
+
+.grid {
+			display: grid;
+			width: 100%;
+			grid-template-colums: 30% 30% 30%;
+			grid-template-areas: 
+				"it1 it2"
+				"it3 it4";
+			grid-gap: 3% 10%;
+			margin: 3% 0;
+			justify-content: center;
+		}
+
+.box2 {
+    background-color: #000;
+    color: #fff;
+    opacity: .7;
+}
+
+.section {
+  grid-column: 2 / 4;
+  display: grid;
+  grid-gap: 30px;
+  margin-top: 0.5em;
+  padding-left: 75px;
+  padding-right: 275px;
+  margin: 0;
+  background-color: #732238;
+  font-size: 1.5em;
+  min-height: 600px;
+  border-top: solid 10px #DBEDF3;
+}
+
+.item1 {
+	color: brown;
+}.bg1 {
+	color: brown;
 }
