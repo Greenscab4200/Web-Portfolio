@@ -1,0 +1,142 @@
+/* CSS Document */
+
+/* CSS Reset*/
+body, header, nav, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* Style rules for the Body and Images */
+body{
+	background-color: #FF0004;
+	font-family: 'acme',"sans-serif";
+}
+header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ padding-top: 5em;
+}
+.menus {
+  background: red;
+  grid-area: menus;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: red;
+  padding-left: 12em;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.menus * {
+  padding: 5px;
+}
+.box1 {
+    background-color: red;
+    color: #fff;
+    opacity: .9;
+	border: 2px solid red;
+	border-radius: 5px;
+}
+.section {
+  grid-column: 1 / 6;
+  display: table-row;
+}
+/*Style rules for mobile viewport*/
+
+/* Style rules for the Header */
+header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#img {
+	display: flex;
+	justify-content: center;
+	width: auto;
+	max-height: auto;
+}
+
+/* Style rules for the NAV */
+nav{
+	color: brown;
+	margin-bottom: 1%;
+	padding: 1%;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Francois One', sans-serif;
+	border-style: solid #fff;
+ 	border: 2px solid red;
+	border-radius: 5px;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a{
+	color: #fff;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	list-style-type: none;
+}
+.menus {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+/* Style rules for the Main Section */
+main {
+	clear: both;
+	background-color: white;
+	padding: 2%;
+	font-size: 1.25em;
+}
+/* Media Query Tablet */
+     @media screen and (min-width:400px) {
+      
+
+		
+    } /* Closing Media Query Tablet */
+    
+    /* Media Query Desktop */
+    @media only screen and (min-width : 100px ){
+		
+        
+    } /* Closing Media Query Desktop */
+    
+    /* Media Query Large Screen */
+    @media screen and (min-width: 1550px) {
+		/* Apply CSS Gris */
+		
+		}
+
+@media screen and (min-width:400px), print {
+	
+}
+
+@media only screen and (min-width : 100px ) , print{
+	
+}
+@media screen and (min-width: 1550px), print {
+	
+}

@@ -1,0 +1,164 @@
+/* CSS Document */
+
+/* CSS Reset*/
+body, header, nav, footer {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* Style rules for the Body and Images */
+body{
+	background-color: #F10000;
+	font-family: 'acme',"sans-serif";
+}
+header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ padding-top: 5em;
+}
+.menus {
+  background: #f10000;
+  grid-area: menus;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: red;
+  padding-left: 16em;
+  padding-right: 16em;
+  border: 2px solid #f10000;
+  border-radius: 5px;
+}
+.menus * {
+  padding: auto auto;
+}
+.box1 {
+    background-color: #f10000;
+    color: #fff;
+    opacity: .9;
+	border: 2px solid #f10000;
+	border-radius: 5px;
+}
+.section {
+  grid-column: 1 / 6;
+  display: table-row;
+}
+
+#tri {
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	float: right;
+}
+
+/*Style rules for mobile viewport*/
+
+/* Style rules for the Header */
+header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#img {
+	display: flex;
+	justify-content: center;
+	width: auto;
+	max-height: auto;
+}
+
+/* Style rules for the NAV */
+nav{
+	color: brown;
+	margin-bottom: 1%;
+	padding: 1%;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Francois One', sans-serif;
+	border-style: solid #fff;
+ 	border: 2px solid #f10000;
+	border-radius: 5px;
+	margin-bottom: 1em;
+	list-style-type: none;
+	padding-top: 1em;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a{
+	color: #fff;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	list-style-type: none;
+}
+.menus {
+  border: 2px solid white;
+  border-radius: 50px;
+}
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+/* Style rules for the Main Section */
+main {
+	clear: both;
+	background-color: #f10000;
+	padding: 2%;
+	font-size: 1.25em;
+	color: #fff;
+}
+h1 {
+	color: #fff;
+}
+
+h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 3em;
+}
+/* Media Query Tablet */
+     @media screen and (min-width:400px) {
+      
+
+		
+    } /* Closing Media Query Tablet */
+    
+    /* Media Query Desktop */
+    @media only screen and (min-width : 100px ){
+		
+        
+    } /* Closing Media Query Desktop */
+    
+    /* Media Query Large Screen */
+    @media screen and (min-width: 1550px) {
+		/* Apply CSS Gris */
+		
+		}
+
+@media screen and (min-width:400px), print {
+	
+}
+
+@media only screen and (min-width : 100px ) , print{
+	
+}
+@media screen and (min-width: 1550px), print {
+	
+}
